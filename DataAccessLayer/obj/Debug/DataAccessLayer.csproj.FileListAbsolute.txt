@@ -16,3 +16,5 @@ C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLa
 C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_edit.resources
 C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
 C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writertitle_add.resources
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_imagelengthchance.resources
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mi_WriterStatusAdded.resources

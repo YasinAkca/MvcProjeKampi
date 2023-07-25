@@ -76,6 +76,14 @@
     <Compile Include="Migrations\202307210827397_mig_writertitle_add.designer.cs">
       <DependentUpon>202307210827397_mig_writertitle_add.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202307240920369_mig_imagelengthchance.cs" />
+    <Compile Include="Migrations\202307240920369_mig_imagelengthchance.designer.cs">
+      <DependentUpon>202307240920369_mig_imagelengthchance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307241214410_mi_WriterStatusAdded.cs" />
+    <Compile Include="Migrations\202307241214410_mi_WriterStatusAdded.designer.cs">
+      <DependentUpon>202307241214410_mi_WriterStatusAdded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -95,6 +103,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202307210827397_mig_writertitle_add.resx">
       <DependentUpon>202307210827397_mig_writertitle_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307240920369_mig_imagelengthchance.resx">
+      <DependentUpon>202307240920369_mig_imagelengthchance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307241214410_mi_WriterStatusAdded.resx">
+      <DependentUpon>202307241214410_mi_WriterStatusAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
