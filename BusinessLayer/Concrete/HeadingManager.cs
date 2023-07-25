@@ -38,6 +38,12 @@ namespace BusinessLayer.Concrete
             heading.HeadingStatus = false;
             _headingDal.Update(heading);
         }
+        public void HeadingActive(Heading heading)
+        {
+            heading.HeadingStatus = true;
+            _headingDal.Update(heading);
+        }
+
 
         public void HeadingUpdate(Heading heading)
         {
