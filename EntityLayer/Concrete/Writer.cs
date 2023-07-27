@@ -25,7 +25,7 @@ namespace EntityLayer.Concrete
         public string WriterPassword { get; set; }
         [StringLength(50)]
         public string WriterTitle { get; set; }        
-        public bool WriterStatus { get; set; }
+        public bool HeadingStatus { get; set; }
 
 
         public ICollection<Heading> Headings { get; set; }

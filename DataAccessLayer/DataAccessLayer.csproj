@@ -84,6 +84,34 @@
     <Compile Include="Migrations\202307241214410_mi_WriterStatusAdded.designer.cs">
       <DependentUpon>202307241214410_mi_WriterStatusAdded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202307250920324_yeni_.cs" />
+    <Compile Include="Migrations\202307250920324_yeni_.designer.cs">
+      <DependentUpon>202307250920324_yeni_.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307251329053_mig_contentstatusadd.cs" />
+    <Compile Include="Migrations\202307251329053_mig_contentstatusadd.designer.cs">
+      <DependentUpon>202307251329053_mig_contentstatusadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307251332228_migration_Content.cs" />
+    <Compile Include="Migrations\202307251332228_migration_Content.designer.cs">
+      <DependentUpon>202307251332228_migration_Content.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307251334019_mig_writerdüzeltildi.cs" />
+    <Compile Include="Migrations\202307251334019_mig_writerdüzeltildi.designer.cs">
+      <DependentUpon>202307251334019_mig_writerdüzeltildi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307251336433_mig_writerstatuseklendi.cs" />
+    <Compile Include="Migrations\202307251336433_mig_writerstatuseklendi.designer.cs">
+      <DependentUpon>202307251336433_mig_writerstatuseklendi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307251339201_mig_düzenleme.cs" />
+    <Compile Include="Migrations\202307251339201_mig_düzenleme.designer.cs">
+      <DependentUpon>202307251339201_mig_düzenleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202307251341013_mig_vallahisondüzenleme.cs" />
+    <Compile Include="Migrations\202307251341013_mig_vallahisondüzenleme.designer.cs">
+      <DependentUpon>202307251341013_mig_vallahisondüzenleme.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -109,6 +137,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202307241214410_mi_WriterStatusAdded.resx">
       <DependentUpon>202307241214410_mi_WriterStatusAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307250920324_yeni_.resx">
+      <DependentUpon>202307250920324_yeni_.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307251329053_mig_contentstatusadd.resx">
+      <DependentUpon>202307251329053_mig_contentstatusadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307251332228_migration_Content.resx">
+      <DependentUpon>202307251332228_migration_Content.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307251334019_mig_writerdüzeltildi.resx">
+      <DependentUpon>202307251334019_mig_writerdüzeltildi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307251336433_mig_writerstatuseklendi.resx">
+      <DependentUpon>202307251336433_mig_writerstatuseklendi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307251339201_mig_düzenleme.resx">
+      <DependentUpon>202307251339201_mig_düzenleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202307251341013_mig_vallahisondüzenleme.resx">
+      <DependentUpon>202307251341013_mig_vallahisondüzenleme.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
