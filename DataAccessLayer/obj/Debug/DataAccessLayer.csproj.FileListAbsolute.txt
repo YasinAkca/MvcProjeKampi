@@ -20,3 +20,4 @@ C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLa
 C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mi_WriterStatusAdded.resources
 C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_content_add_contentstatus.resources
 C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_content_add_headingstatus.resources
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_addedMessageClass.resources
