@@ -23,6 +23,16 @@ namespace MvcProjeKampi.Controllers
             var messagelist = mm.GetMessageListSendbox();
             return View(messagelist);
         }
+        public ActionResult GetInBoxMessageDetails(int id)
+        {
+            var values = mm.GetByID(id);
+            return View(values);
+        }
+        public ActionResult GetSendBoxMessageDetails(int id)
+        {
+            var values = mm.GetByID(id);
+            return View(values);
+        }
         [HttpGet]
         public ActionResult NewMessage()
         {
@@ -32,6 +42,7 @@ namespace MvcProjeKampi.Controllers
         public ActionResult NewMessage(Message p)
         {
             return View();
-        }
+        }        
+
     }
 }
