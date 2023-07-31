@@ -14,6 +14,7 @@ namespace MvcProjeKampi.Controllers
     public class AdminCategoryController : Controller
     {
         CategoryMenager cm = new CategoryMenager(new EfCategoryDal());
+        [Authorize(Roles="B")] //Kullanıcıya göre giriş izni oluşturmamıza yarar.
         public ActionResult Index()
         {
             var categoryvalues = cm.GetList();
