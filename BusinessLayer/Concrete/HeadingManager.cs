@@ -35,7 +35,7 @@ namespace BusinessLayer.Concrete
 
         public void HeadingDelete(Heading heading)
         {
-            heading.HeadingStatus = false;
+            heading.HeadingStatus = false;   
             _headingDal.Update(heading);
         }
         public void HeadingActive(Heading heading)
@@ -50,9 +50,9 @@ namespace BusinessLayer.Concrete
             _headingDal.Update(heading);
         }
 
-        public List<Heading> GetListByWriter(int id)
+        public List<Heading> GetListByWriter()
         {
-            return _headingDal.List(x => x.WriterID == id);
+            return _headingDal.List(x => x.WriterID == 4);
         }
     }
 }
