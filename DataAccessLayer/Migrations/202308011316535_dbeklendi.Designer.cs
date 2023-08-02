@@ -7,13 +7,13 @@ namespace DataAccessLayer.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class mig_contactDateColumnAdded : IMigrationMetadata
+    public sealed partial class dbeklendi : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(mig_contactDateColumnAdded));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(dbeklendi));
         
         string IMigrationMetadata.Id
         {
-            get { return "202307281417590_mig_contactDateColumnAdded"; }
+            get { return "202308011316535_dbeklendi"; }
         }
         
         string IMigrationMetadata.Source

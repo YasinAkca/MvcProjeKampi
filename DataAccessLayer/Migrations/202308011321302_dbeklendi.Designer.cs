@@ -7,13 +7,13 @@ namespace DataAccessLayer.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class mig_content_add_contentstatus : IMigrationMetadata
+    public sealed partial class dbeklendi : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(mig_content_add_contentstatus));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(dbeklendi));
         
         string IMigrationMetadata.Id
         {
-            get { return "202307250814168_mig_content_add_contentstatus"; }
+            get { return "202308011321302_dbeklendi"; }
         }
         
         string IMigrationMetadata.Source

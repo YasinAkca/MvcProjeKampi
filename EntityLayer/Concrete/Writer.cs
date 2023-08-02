@@ -10,7 +10,7 @@ namespace EntityLayer.Concrete
     public class Writer
     {
         [Key]
-        public int YazarID { get; set; }
+        public int WriterID { get; set; }
         [StringLength(50)]
         public string WriterName { get; set; }
         [StringLength(50)]

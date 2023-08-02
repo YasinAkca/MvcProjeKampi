@@ -72,45 +72,9 @@
     <Compile Include="EntityFramework\EfImageFileDal.cs" />
     <Compile Include="EntityFramework\EfMessageDal.cs" />
     <Compile Include="EntityFramework\EfWriterDal.cs" />
-    <Compile Include="Migrations\202307210733299_mig_writer_edit.cs" />
-    <Compile Include="Migrations\202307210733299_mig_writer_edit.designer.cs">
-      <DependentUpon>202307210733299_mig_writer_edit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202307210827397_mig_writertitle_add.cs" />
-    <Compile Include="Migrations\202307210827397_mig_writertitle_add.designer.cs">
-      <DependentUpon>202307210827397_mig_writertitle_add.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202307240920369_mig_imagelengthchance.cs" />
-    <Compile Include="Migrations\202307240920369_mig_imagelengthchance.designer.cs">
-      <DependentUpon>202307240920369_mig_imagelengthchance.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202307241214410_mi_WriterStatusAdded.cs" />
-    <Compile Include="Migrations\202307241214410_mi_WriterStatusAdded.designer.cs">
-      <DependentUpon>202307241214410_mi_WriterStatusAdded.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202307250814168_mig_content_add_contentstatus.cs" />
-    <Compile Include="Migrations\202307250814168_mig_content_add_contentstatus.designer.cs">
-      <DependentUpon>202307250814168_mig_content_add_contentstatus.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202307250819052_mig_content_add_headingstatus.cs" />
-    <Compile Include="Migrations\202307250819052_mig_content_add_headingstatus.designer.cs">
-      <DependentUpon>202307250819052_mig_content_add_headingstatus.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202307271109136_mig_addedMessageClass.cs" />
-    <Compile Include="Migrations\202307271109136_mig_addedMessageClass.designer.cs">
-      <DependentUpon>202307271109136_mig_addedMessageClass.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202307281417590_mig_contactDateColumnAdded.cs" />
-    <Compile Include="Migrations\202307281417590_mig_contactDateColumnAdded.designer.cs">
-      <DependentUpon>202307281417590_mig_contactDateColumnAdded.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202307291925052_mig_imagefiletableadded.cs" />
-    <Compile Include="Migrations\202307291925052_mig_imagefiletableadded.designer.cs">
-      <DependentUpon>202307291925052_mig_imagefiletableadded.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202307292022250_mig_adminTableAdded.cs" />
-    <Compile Include="Migrations\202307292022250_mig_adminTableAdded.designer.cs">
-      <DependentUpon>202307292022250_mig_adminTableAdded.cs</DependentUpon>
+    <Compile Include="Migrations\202308011321302_dbeklendi.cs" />
+    <Compile Include="Migrations\202308011321302_dbeklendi.designer.cs">
+      <DependentUpon>202308011321302_dbeklendi.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -126,35 +90,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202307210733299_mig_writer_edit.resx">
-      <DependentUpon>202307210733299_mig_writer_edit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202307210827397_mig_writertitle_add.resx">
-      <DependentUpon>202307210827397_mig_writertitle_add.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202307240920369_mig_imagelengthchance.resx">
-      <DependentUpon>202307240920369_mig_imagelengthchance.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202307241214410_mi_WriterStatusAdded.resx">
-      <DependentUpon>202307241214410_mi_WriterStatusAdded.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202307250814168_mig_content_add_contentstatus.resx">
-      <DependentUpon>202307250814168_mig_content_add_contentstatus.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202307250819052_mig_content_add_headingstatus.resx">
-      <DependentUpon>202307250819052_mig_content_add_headingstatus.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202307271109136_mig_addedMessageClass.resx">
-      <DependentUpon>202307271109136_mig_addedMessageClass.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202307281417590_mig_contactDateColumnAdded.resx">
-      <DependentUpon>202307281417590_mig_contactDateColumnAdded.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202307291925052_mig_imagefiletableadded.resx">
-      <DependentUpon>202307291925052_mig_imagefiletableadded.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202307292022250_mig_adminTableAdded.resx">
-      <DependentUpon>202307292022250_mig_adminTableAdded.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202308011321302_dbeklendi.resx">
+      <DependentUpon>202308011321302_dbeklendi.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

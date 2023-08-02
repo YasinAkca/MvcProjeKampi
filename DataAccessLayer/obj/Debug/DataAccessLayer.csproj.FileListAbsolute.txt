@@ -13,14 +13,5 @@ C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLa
 C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
 C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
-C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writer_edit.resources
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.dbeklendi.resources
 C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
-C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_writertitle_add.resources
-C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_imagelengthchance.resources
-C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mi_WriterStatusAdded.resources
-C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_content_add_contentstatus.resources
-C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_content_add_headingstatus.resources
-C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_addedMessageClass.resources
-C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contactDateColumnAdded.resources
-C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_imagefiletableadded.resources
-C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_adminTableAdded.resources

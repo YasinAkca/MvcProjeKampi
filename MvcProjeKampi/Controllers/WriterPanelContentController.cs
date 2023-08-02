@@ -8,20 +8,14 @@ using System.Web.Mvc;
 
 namespace MvcProjeKampi.Controllers
 {
-    public class ContentController : Controller
+    public class WriterPanelContentController : Controller
     {
-        // GET: Content
+        // GET: WriterPanelContent
         ContentManager cm = new ContentManager(new EfContentDal());
-        public ActionResult Index()
+        public ActionResult MyContent()
         {
-            return View();
-        }
-        public ActionResult ContentByHeading(int id)
-        {
-            var contentvalues = cm.GetListByHeadingID(id);
-            Console.WriteLine(contentvalues);
+            var contentvalues = cm.GetListByWriter();
             return View(contentvalues);
-            
         }
     }
 }

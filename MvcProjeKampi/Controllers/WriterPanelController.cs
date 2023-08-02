@@ -27,7 +27,9 @@ namespace MvcProjeKampi.Controllers
         [HttpGet]
         public ActionResult AddNewMyHeading()
         {
-            List<SelectListItem> valuecategory = (from x in cm.GetList() select new SelectListItem { Text = x.CategoryName, Value = x.CategoryID.ToString() }).ToList();
+            Heading heading = new Heading();
+            List<SelectListItem> valuecategory = (from x in cm.GetList() select new SelectListItem { Text = x.CategoryName, Value = x.CategoryID.ToString() }).ToList();       
+            heading.HeadingStatus = true;
             ViewBag.vlc = valuecategory;
             return View();
         }
@@ -35,7 +37,7 @@ namespace MvcProjeKampi.Controllers
         public ActionResult AddNewMyHeading(Heading p)
         {
             p.HeadingDate = DateTime.Parse(DateTime.Now.ToShortDateString());
-            p.WriterID = 4;
+            p.WriterID = 2;
             p.HeadingStatus = true;
             hm.HeadingAdd(p);
             return RedirectToAction("MyHeading");
@@ -46,6 +48,7 @@ namespace MvcProjeKampi.Controllers
             List<SelectListItem> valuecategory = (from x in cm.GetList() select new SelectListItem { Text = x.CategoryName, Value = x.CategoryID.ToString() }).ToList();
             ViewBag.vlc = valuecategory;
             var HeadingValue = hm.GetByID(id);
+            HeadingValue.HeadingStatus = true;
             return View(HeadingValue);
         }
         [HttpPost]

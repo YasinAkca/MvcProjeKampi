@@ -52,7 +52,7 @@ namespace BusinessLayer.Concrete
 
         public List<Heading> GetListByWriter()
         {
-            return _headingDal.List(x => x.WriterID == 4);
+            return _headingDal.List(x => x.WriterID == 2);
         }
     }
 }
