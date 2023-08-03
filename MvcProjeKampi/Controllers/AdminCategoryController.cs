@@ -14,6 +14,8 @@ namespace MvcProjeKampi.Controllers
     public class AdminCategoryController : Controller
     {
         CategoryMenager cm = new CategoryMenager(new EfCategoryDal());
+
+        
         public ActionResult Index()
         {
             var categoryvalues = cm.GetList();

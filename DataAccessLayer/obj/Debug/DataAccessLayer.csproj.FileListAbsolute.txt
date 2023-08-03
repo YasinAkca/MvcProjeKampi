@@ -46,3 +46,6 @@ C:\Users\goktu\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLa
 C:\Users\goktu\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_düzenleme.resources
 C:\Users\goktu\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_vallahisondüzenleme.resources
 C:\Users\goktu\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_add_message.resources
+C:\Users\goktu\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.exit.resources
+C:\Users\goktu\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_imagefileadded.resources
+C:\Users\goktu\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_adminadded.resources
