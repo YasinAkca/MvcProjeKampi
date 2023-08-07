@@ -1,5 +1,7 @@
 ﻿@using EntityLayer.Concrete
-@model List<Heading>
+@using PagedList
+@using PagedList.Mvc 
+@model PagedList.IPagedList<Heading>
 @{
     ViewBag.Title = "AllHeading";
     Layout = "~/Views/Shared/_WriterLayout.cshtml";
@@ -96,7 +98,7 @@
                                         <small>
                                             @(((DateTime)item.HeadingDate).ToString("dd-MM-yyyy"))
                                         </small>
-                                    </td>
+                                    </td>   
                                     <td>
                                         <ul class="list-inline">
                                             <li class="list-inline-item">
@@ -113,7 +115,7 @@
                                             </i>
                                             Yazılar
                                         </a>
-                                        <a class="btn btn-info btn-sm" href="/WriterPanel/EditMyHeading/@item.HeadingID">
+                                        <a class="btn btn-info btn-sm" href="/WriterPanelContent/AddContent/@item.HeadingID">
                                             <i class="fas fa-pencil-alt">
                                             </i>
                                             Bu Başlığa Yaz
@@ -134,5 +136,8 @@
 
 </body>
 </html>
-<a href="/WriterPanel/AddNewMyHeading/" class="btn btn-primary">Yeni Başlık Girişi</a>
-
+@Html.PagedListPager((IPagedList)Model,p=>Url.Action("AllHeading",new { p}),new PagedListRenderOptions 
+{ 
+    LiElementClasses = new List<string>
+    { "page-link"}
+})

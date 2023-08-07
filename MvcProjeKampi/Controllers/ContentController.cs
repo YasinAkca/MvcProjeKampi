@@ -23,5 +23,11 @@ namespace MvcProjeKampi.Controllers
             return View(contentvalues);
             
         }
+        public ActionResult DeleteContent(int id)
+        {
+            var ContentValue = cm.GetByID(id);
+            cm.ContentDelete(ContentValue);
+            return RedirectToAction("Index");
+        }
     }
 }

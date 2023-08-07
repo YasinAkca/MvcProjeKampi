@@ -32,7 +32,15 @@
                                     <div class="timeline-item">
                                         <h3 class="timeline-header"><a href="#">@item.Writers.WriterName</a> Deneme</h3>
                                         <div class="timeline-body">
-                                            @item.ContentValue
+                                            @item.ContentValue   
+                                            <div style="float:right">
+                                                <a class="btn btn-info btn-sm" href="/Content/DeleteContent/@item.ContentID">
+                                                    <i class="fas fa-trash-alt">
+                                                    </i>
+                                                    Bu içeriği sil
+                                                </a>
+                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>

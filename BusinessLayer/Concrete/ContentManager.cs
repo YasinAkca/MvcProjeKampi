@@ -20,12 +20,12 @@ namespace BusinessLayer.Concrete
 
         public void ContentAdd(Content content)
         {
-            throw new NotImplementedException();
+            _contentDal.Insert(content);
         }
 
         public void ContentDelete(Content content)
         {
-            throw new NotImplementedException();
+            _contentDal.Delete(content);
         }
 
         public void ContentUpdate(Content content)
