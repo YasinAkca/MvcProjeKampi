@@ -19,6 +19,7 @@ namespace MvcProjeKampi.Controllers
         [Authorize]
         public ActionResult Inbox(string p)
         {
+
             var messagelist = mm.GetMessageListInbox(p);
             return View(messagelist);
         }

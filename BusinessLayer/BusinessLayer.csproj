@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="Abstract\IAboutService.cs" />
     <Compile Include="Abstract\ICategoryService.cs" />
+    <Compile Include="Abstract\IHeadingChartService.cs" />
     <Compile Include="Abstract\IContactService.cs" />
     <Compile Include="Abstract\IContentService.cs" />
     <Compile Include="Abstract\IHeadingService.cs" />
@@ -62,12 +63,12 @@
     <Compile Include="Abstract\IWriterService.cs" />
     <Compile Include="Concrete\AboutManager.cs" />
     <Compile Include="Concrete\CategoryMenager.cs" />
+    <Compile Include="Concrete\HeadingChartManager.cs" />
     <Compile Include="Concrete\ContactManager.cs" />
     <Compile Include="Concrete\ContentManager.cs" />
     <Compile Include="Concrete\HeadingManager.cs" />
     <Compile Include="Concrete\ImageFileManager.cs" />
     <Compile Include="Concrete\MessageManager.cs" />
-    <Compile Include="Concrete\StatisticsMenager.cs" />
     <Compile Include="Concrete\WriterLoginManager.cs" />
     <Compile Include="Concrete\WriterMenager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
