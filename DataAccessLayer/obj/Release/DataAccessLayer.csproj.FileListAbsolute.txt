@@ -1,0 +1,17 @@
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\bin\Release\DataAccessLayer.dll.config
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\bin\Release\DataAccessLayer.dll
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\bin\Release\DataAccessLayer.pdb
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\bin\Release\EntityFramework.dll
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\bin\Release\EntityLayer.dll
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\bin\Release\EntityLayer.pdb
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\bin\Release\EntityLayer.dll.config
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\bin\Release\EntityFramework.xml
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Release\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Release\DataAccessLayer.Migrations.dbeklendi.resources
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Release\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Release\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Release\DataAccessLayer.csproj.CopyComplete
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Release\DataAccessLayer.dll
+C:\Users\yasin\source\repos\MvcProjeKampi\DataAccessLayer\obj\Release\DataAccessLayer.pdb
